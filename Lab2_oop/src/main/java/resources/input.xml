@@ -1,0 +1,69 @@
+<Greenhouse xmlns="lab2">
+    <Flower id="0">
+        <name>Tulip</name>
+        <soil>PODZOLIC</soil>
+        <origin>Netherlands</origin>
+        <visualParameters>
+            <stemColor>Green</stemColor>
+            <leavesColor>Violet</leavesColor>
+            <averageSize>37</averageSize>
+        </visualParameters>
+        <growingTips>
+            <temperature>7</temperature>
+            <isLighting>true</isLighting>
+            <waterAmount>1000</waterAmount>
+        </growingTips>
+        <multiplying>LEAVES</multiplying>
+    </Flower>
+
+    <Flower id="1">
+        <name>Lily</name>
+        <soil>GROUND</soil>
+        <origin>America</origin>
+        <visualParameters>
+            <stemColor>Green</stemColor>
+            <leavesColor>Pink</leavesColor>
+            <averageSize>52</averageSize>
+        </visualParameters>
+        <growingTips>
+            <temperature>15</temperature>
+            <isLighting>false</isLighting>
+            <waterAmount>2000</waterAmount>
+        </growingTips>
+        <multiplying>SEEDS</multiplying>
+    </Flower>
+
+    <Flower id="2">
+        <name>Rose</name>
+        <soil>SOD_PODZOLIC</soil>
+        <origin>China</origin>
+        <visualParameters>
+            <stemColor>Green</stemColor>
+            <leavesColor>White</leavesColor>
+            <averageSize>70</averageSize>
+        </visualParameters>
+        <growingTips>
+            <temperature>15</temperature>
+            <isLighting>true</isLighting>
+            <waterAmount>1500</waterAmount>
+        </growingTips>
+        <multiplying>LEAVES</multiplying>
+    </Flower>
+
+    <Flower id="3">
+        <name>Peonies</name>
+        <soil>GROUND</soil>
+        <origin>Europe</origin>
+        <visualParameters>
+            <stemColor>Green</stemColor>
+            <leavesColor>Pink</leavesColor>
+            <averageSize>45</averageSize>
+        </visualParameters>
+        <growingTips>
+            <temperature>18</temperature>
+            <isLighting>true</isLighting>
+            <waterAmount>1750</waterAmount>
+        </growingTips>
+        <multiplying>CUTTING</multiplying>
+    </Flower>
+</Greenhouse>
